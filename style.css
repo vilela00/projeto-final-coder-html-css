@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_header {
+    color: blue;
+    list-style: none;
+}
+
+.menu_header li a {
+    color: rgb(32, 211, 26);
+    text-decoration: none;    
+}
+
+.menu_header li a:hover{
+    color: rgb(211, 26, 186);
+}
+
+section h1 {
+    color: #a52a2a;
+}
+
+.title_header {
+    font-size: 30px;
+    color: #a52a2a;
+}
+
+.section_home {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section_text_1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-style: bold;
+}
+
+.section_text_2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    background-color: bisque;
+    max-width: 600px;
+}
