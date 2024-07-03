@@ -82,14 +82,8 @@ section h1 {
     background-color: aquamarine;
 }
 
-.submenu:hover .submenu {
+.com-submenu:hover .submenu {
     display:block
-}
-
-.submenu_item {
-    position: relative;
-    list-style: none;
-    padding: 10px;
 }
 
 .bloco1 {

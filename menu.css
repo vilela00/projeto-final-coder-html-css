@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu {
+    background-color: blanchedalmond;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.menu_item {
+    position: relative;
+    font-size: 18px;
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 2px;
+    width: 200px;
+}
+
+.submenu_item {
+    text-transform: uppercase;
+    margin-top: 2px;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.com_submenu:hover .submenu {
+    display: block;
+}
