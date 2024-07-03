@@ -63,3 +63,48 @@ section h1 {
     padding: 10px 5px 5px 10px;
     margin: 10px 5px 5px 10px;
 }
+
+.menu {
+    background-color: blanchedalmond;
+    padding: 10px;
+    display: flex;
+}
+
+.menu_item {
+    position: relative;
+    list-style: none;
+    padding: 10px;
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+    background-color: aquamarine;
+}
+
+.submenu:hover .submenu {
+    display:block
+}
+
+.submenu_item {
+    position: relative;
+    list-style: none;
+    padding: 10px;
+}
+
+.bloco1 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+}
+
+.bloco2 {
+    width: 100px;
+    height: 100px;
+    background-color: #a52a2a;
+    position: absolute;
+    margin-top: 10px;    
+    margin-left: 10px;
+}
