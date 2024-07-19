@@ -315,3 +315,132 @@ section h1 {
         transform: skewY(30deg);
     }
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filho {
+    background-color: #851d7f;
+    height: 50px;
+    width: 50px;
+    border: #464141 dashed 10px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.filho1 {
+    background-color: #bb9826;
+    height: 50px;
+    width: 50px;
+    border: #464141 dashed 10px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+
+.filho2 {
+    background-color: #1d8522;
+    height: 50px;
+    width: 50px;
+    border: #464141 dashed 10px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.filho3 {
+    background-color: #3c1d85;
+    height: 50px;
+    width: 50px;
+    border: #464141 dashed 10px;
+}
+
+.container4 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filho4 {
+    background-color: #fc5f16;
+    height: 50px;
+    width: 50px;
+    border: #464141 dashed 10px;
+}
+
+.justify {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.justify1 {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.justify2 {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.justify3 {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.justify4 {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.filho5 {
+    background-color: #241711;
+    height: 50px;
+    width: 50px;
+    border: #464141 dashed 10px;
+}
+
+.dentro {
+    display: flex;
+    gap: 10px;
+}
+
+.dentro1 {
+    display: flex;
+    gap: 10px;
+}
+
+.filho6 {
+    background-color: #3816fc;
+    height: 50px;
+    width: 50px;
+    border: #464141 dashed 10px;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.container_filho {
+    display: flex;
+}
+
+.navegacao {
+    background-color: orange;
+    width: 300px;
+    height: 800px;
+}
+
+.cabecalho {
+    background-color: rgb(30, 65, 160);
+}
+
+.conteudo {
+    background-color: purple;
+    width: 800px;
+    height: 600px;
+}
+
+.barra {
+    background-color: lightcoral;
+}
+
+.rodape {
+    background-color: darkblue;
+}
