@@ -1,0 +1,41 @@
+.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 150px 600px 150px;
+    gap: 2px;
+    grid-template-areas: 
+    "header header"
+    "nav section"
+    "nav footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+}
+.nav {
+    grid-area: nav;
+    background-color: brown;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.section {
+    grid-area: section;
+    background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(226, 43, 180);
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+}

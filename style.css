@@ -444,3 +444,57 @@ section h1 {
     width: 50px;
     border: #464141 dashed 10px;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 100px);
+    column-gap: 5px;
+    row-gap: 2px;
+}
+
+.borda {
+    border: 2px solid black;
+}
+
+.gridgrid {
+    display: grid;
+    grid-template-columns: 100px 400px 100px;
+    grid-template-rows: 100px 200px 50px 200px;
+    grid-template-areas: 
+    "nav header header"
+    "nav produtos aside"
+    "nav servicos aside"
+    "nav footer footer"
+    "nav footer footer";
+}
+
+.headergrid {
+    grid-area: header;
+    background-color: #1d8522;
+}
+
+.navgrid {
+    grid-area: nav;
+    background-color: #3816fc;
+}
+
+.produtosgrid {
+    grid-area: produtos;
+    background-color: #a52a2a;
+}
+
+.servicosgrid {
+    grid-area: servicos;
+    background-color: #ca8888;
+}
+
+.asidegrid {
+    grid-area: aside;
+    background-color: #bb9826;
+}
+
+.footergrid {
+    grid-area: footer;
+    background-color: #464141;
+}
