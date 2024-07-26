@@ -1,0 +1,100 @@
+.container {
+    display: grid;
+    grid-template-columns: 800px 400px;
+    grid-template-rows: 150px 100px 100px 300px 200px;
+    grid-template-areas: 
+    "header header"
+    "section aside"
+    "section aside"
+    "section1 aside"
+    "footer footer"
+    ;
+    justify-content: center;
+    gap: 5px;
+}
+
+/*TABLET*/
+@media screen and (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header {
+        height: 100px;
+    }
+    
+    .section {
+        height: 500px;
+    }
+
+    .section1 {
+        height: 400px;
+    }
+
+    .aside {
+        height: 100px;
+    }
+
+    .footer {
+        height: 50px;
+    }
+}
+
+/*MOBILE*/
+@media screen and (max-width:480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header {
+        height: 80px;
+    }
+    
+    .section {
+        height: 200px;
+    }
+
+    .section1 {
+        height: 300px;
+    }
+
+    .aside {
+        height: 100px;
+    }
+
+    .footer {
+        height: 50px;
+    }
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(214, 89, 89);
+    border-radius: 5px;
+}
+
+.section {
+    grid-area: section;
+    background-color: rgb(230, 109, 230);
+    border-radius: 5px;
+}
+
+.section1 {
+    grid-area: section1;
+    background-color: rgb(233, 73, 198);
+    border-radius: 5px;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: rgb(167, 211, 211);
+    border-radius: 5px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(127, 190, 133);
+    border-radius: 5px;
+}

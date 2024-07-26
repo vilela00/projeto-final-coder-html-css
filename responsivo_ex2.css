@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 60px 250px 400px 150px 280px;
+    grid-template-areas: 
+    "header header header"
+    "banner banner banner"
+    "card1 card2 card3"
+    "login login login"
+    "footer footer footer"
+    ;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width:768px) {
+    .container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 70px 200px 280px 120px 120px;
+    grid-template-areas: 
+    "header header"
+    "banner banner"
+    "footer footer"
+    "login card1"
+    "card3 card2"
+    ;
+
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 70px 200px 280px 100px 100px 100px 100px;
+        grid-template-areas: 
+        "header"
+        "banner"
+        "footer"
+        "login"
+        "card1"
+        "card2"
+        "card3"
+        ;
+    
+        }
+        
+    }
+
+.header {
+    background-color: rgb(32, 119, 190);
+    border-radius: 2px;
+    grid-area: header;
+}
+
+.banner {
+    background-color: rgb(139, 181, 230);
+    border-radius: 2px;
+    grid-area: banner;
+}
+
+.card1 {
+    background-color: rgb(253, 220, 158);
+    border-radius: 2px;
+    grid-area: card1;
+}
+
+.card2 {
+    background-color: rgb(190, 175, 241);
+    border-radius: 2px;
+    grid-area: card2;
+}
+
+.card3 {
+    background-color: rgb(173, 94, 94);
+    border-radius: 2px;
+    grid-area: card3
+}
+
+.login {
+    background-color: rgb(145, 202, 255);
+    border-radius: 2px;
+    grid-area: login;
+}
+
+.footer {
+    background-color: rgb(199, 199, 199);
+    border-radius: 2px;
+    grid-area: footer;
+}
