@@ -498,3 +498,23 @@ section h1 {
     grid-area: footer;
     background-color: #464141;
 }
+
+.cor_coluna_boot {
+    background-color: #464141;
+    height: 60px;
+}
+
+.cor_coluna_boot1 {
+    background-color: #90bd3c;
+    height: 60px;
+}
+
+.cor_coluna_boot2 {
+    background-color: #1e9397;
+    height: 60px;
+}
+
+.cor_coluna_boot3 {
+    background-color: #721f1f;
+    height: 60px;
+}
